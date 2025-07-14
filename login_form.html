@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            background-color: #f0f0f0; 
+        }
+
+        .center-screen {
+            background-color: white;
+            padding: 20px;
+            border: solid;
+            border-radius: 8px; 
+            text-align: center;
+            width: 300px; 
+        }
+
+        input[type= 'submit']{
+            background-color: rgb(144, 204, 238);
+            color: black;
+            height: 25px;
+            width: 170px;
+        }
+    </style>
+</head>
+<body>
+    <div class= "center-screen">
+        <h1>Login</h1>
+        <hr>
+        <label for="usname">Username: </label>
+        <br>
+        <input name="usname" type="text">
+        <br> <br>
+        <label for="pass">Password: </label>
+        <br>
+        <input type="password" name="pass" minlength="6">
+        <br> <br>
+        <a href="#">Forget Password?</a>
+        <br><br>
+        <input type="submit">
+        <br>
+        <p>Not a Member ?</p>
+        <a href="singup_form.html">Singup</a>
+    </div>
+</body>
+</html>
